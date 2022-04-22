@@ -1,0 +1,27 @@
+###
+GET http://localhost:5000 HTTP/1.1
+
+###
+POST http://localhost:5000/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Arnab",
+    "email": "arnab12@mail.com",
+    "password": "pass"
+}
+
+###
+POST http://localhost:5000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "arnab12@mail.com",
+    "password": "pass"
+}
+
+###
+GET http://localhost:5000/api/user HTTP/1.1
+
+###
+POST http://localhost:5000/api/logout HTTP/1.1
