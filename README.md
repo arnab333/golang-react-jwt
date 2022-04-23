@@ -8,4 +8,4 @@
 - `MySQL` database has been used
 - Used `bcrypt` for password hashing
 - Used `HttpOnly` cookie to prevent Cross-site scripting attacks
-- For frontend `React` has been used
+- For frontend `React` has been used along with `TypeScript`
